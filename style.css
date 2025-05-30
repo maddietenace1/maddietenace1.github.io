@@ -1,0 +1,301 @@
+body{
+    background-image: url(background.png);
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed;
+    color:white;
+    font-family: Basis Grotesque Arabic Pro;
+    font-size: 25px;
+    line-height: 27px;
+}
+
+/*image*/
+
+img {
+    width:100%;
+}
+
+div.align {
+    align-items: center;
+}
+
+/*text styles*/ 
+
+div.title {
+    font-size: 180px;
+    font-family: Malum Illegitimi;
+    color: white;
+    line-height: 150px;
+    text-align: center;
+}
+
+div.subtitle {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 42px;
+}
+
+div.bodytext {
+    font-size:20px;
+    line-height: 22px;
+}
+
+div.smalltext {
+    font-size: 15px;
+    font-family: ibm plex mono;
+    color: lime;
+    line-height: 17px;
+}
+
+div.quote {
+    font-family: Basis Grotesque Arabic Pro;
+    font-weight: lighter;
+    font-size: 70px;
+    line-height: 81px;
+    text-shadow: 4px 3px 4px blue
+}
+
+div.quote2 {
+    font-family: Basis Grotesque Arabic Pro;
+    font-weight: bolder;
+    font-size: 70px;
+    line-height: 81px;
+}
+
+div.chapter {
+    font-family: ibm plex mono;
+    color: lime;
+    font-size: 30px;
+    line-height: 32px;
+}
+
+div.bgpink {
+    background-color: magenta;
+}
+
+div.upper {
+    text-transform: uppercase;
+}
+
+/*welcome page*/
+
+div.welcome {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("blue.jpeg");
+    color: white;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    cursor: pointer;
+    font-size:20px;
+    color: rgb(34, 251, 5);
+  }
+  
+div.welcome.visible {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+/*hero video*/
+
+div.herovideo {
+    width: 300px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    autoplay
+}
+div.v {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+img, video {
+    width: 100%;
+    display: block;
+}
+
+video {
+    object-fit: contain;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+/*margins*/
+
+div.mb {
+    margin-bottom: 100px;
+}
+
+div.mb2 {
+    margin-bottom: 30px;
+}
+
+div.mt2 {
+    margin-top: 20px;
+}
+
+div.mt {
+    margin-top: 50px;
+}
+
+div.ml {
+    margin-left: 50px;
+}
+
+div.mr {
+    margin-right: 80px;
+}
+
+div.cm {
+    margin-left: 550px;
+}
+
+div.mtx{
+    margin-top: 180px;
+}
+
+div.mtx2 {
+    margin-top: 200px;
+}
+
+div.fl {
+    margin-left: 1280px;
+}
+
+div.quoteml {
+    margin-left: 800px;
+}
+
+div.mfl {
+    margin-left: 350px;
+}
+
+div.mfl2 {
+    margin-left: 600px;
+}
+
+div.ml1 {
+    margin-left: 100px
+}
+
+div.mlc {
+    margin-left: 85px;
+}
+
+div.mtf {
+    margin-top: 350px;
+}
+
+/*widths*/
+
+div.width10 {
+    width: 10%;;
+}
+
+div.width15 {
+    width:15%;
+}
+
+div.width50 {
+    width: 50%;
+}
+
+div.width25 {
+    width: 25%;
+}
+
+div.width30 {
+    width: 30%;
+}
+
+div.width40 {
+    width: 40%;
+}
+
+div.width60 {
+    width: 60%;
+}
+
+div.width75 {
+    width: 75%;
+}
+
+div.width90 {
+    width: 90%;
+}
+
+/*background colors*/
+
+div.bgpink {
+    background-color: magenta
+}
+
+div.bgblack {
+    background-color: black
+}
+
+div.bgred {
+    background-color: red
+}
+
+div.bgamber {
+    background-color: rgb(255, 225, 0)
+}
+
+/*layouts*/
+
+div.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.flexend {
+    justify-content: flex-end;
+}
+
+div.flexcenter {
+    justify-content: center;
+}
+
+div.flexbetween {
+    justify-content: space-between;
+}
+
+div.alignstart {
+    align-items: flex-start;
+}
+
+div.alignend {
+    align-items: flex-end;
+}
+
+/*pop-ups*/
+
+div.popup {
+    position: fixed;
+    top: 200px;
+    left: 200px;
+    background-color: red;
+    width: 300px;
+    height: 300px;
+}
+
+div.hide {
+    display: none;
+}
+
+/*triggers and effects*/
+
+body.update  {
+    background-color: black;
+    color: lime;
+}
+
+
+

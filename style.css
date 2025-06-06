@@ -23,7 +23,6 @@ div.bgimap {
     position: fixed;
     bottom: 1%;
     left: 1%;
-    background-image: url("smallmap.png");
     background-position: 0 0;
     width: 120px;
     height: 120px;
@@ -33,19 +32,19 @@ div.bgimap {
 
 div.bgiicon {
     position: fixed;
-    bottom: 24%;
+    top: 2%;
     right: 0%;
     background-image: url("streetviewicon.png");
     background-position: 0 0;
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
     margin: 0;
     padding: 0;
     }
 
 div.bgicompass {
     position: fixed;
-    bottom: 25%;
+    top: 19%;
     left: 93%;
     background-position: 0 0;
     background-repeat:no-repeat;
@@ -58,7 +57,7 @@ div.bgicompass {
 
 div.bgirelocate {
     position: fixed;
-    bottom: 32%;
+    top: 20%;
     left: 88%;
     background-position: 0 0;
     background-repeat:no-repeat;
@@ -126,6 +125,7 @@ div.bgpink {
 div.upper {
     text-transform: uppercase;
 }
+
 
 /*welcome page*/
 
@@ -335,10 +335,10 @@ div.alignend {
 
 div.popup {
     position: fixed;
-    top: 0;
-    left: 74%;
+    bottom: 25%;
+    left: 79%;
     background-position: 0 0;
-    width: 400px;
+    width: 300px;
     height: 100px;
     margin: 0;
     padding: 0;
@@ -361,15 +361,56 @@ div.pop5 {
     display: none;  
 }
 
+div.pop7 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-position: 0 0;
+    width: 100px;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    display: none;  
+}
+
+div.pop8 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-position: 0 0;
+    width: 100px;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    display: none;  
+}
+
+div.pop6 {
+    position: fixed;
+    top: 0;
+    left: 44%;
+    background-position: 0 0;
+    width: 200px;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    display: none;  
+}
+
+/*body triggers*/
+
 body.mainpage {
-    
+
 }
 
 body.mainpage.active {
-    background-color: red;
+    background-image: url(red.png);
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed;
     color: white;
-}
 
+}
 
 
 

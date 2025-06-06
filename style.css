@@ -126,6 +126,11 @@ div.upper {
     text-transform: uppercase;
 }
 
+div.conclusion {
+    font-family: ibm plex mono;
+    font-size: 15px;
+}
+
 
 /*welcome page*/
 
@@ -244,6 +249,10 @@ div.mtf {
 
 div.mwalkers {
     margin-top: 600px;
+}
+
+div.mls {
+    margin-left: 120px;
 }
 
 /*widths*/

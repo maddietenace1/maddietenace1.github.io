@@ -32,24 +32,24 @@ div.bgimap {
 
 div.bgiicon {
     position: fixed;
-    top: 2%;
+    top: 5%;
     right: 0%;
     background-image: url("streetviewicon.png");
     background-position: 0 0;
-    width: 130px;
-    height: 130px;
+    width: 80px;
+    height: 80px;
     margin: 0;
     padding: 0;
     }
 
 div.bgicompass {
     position: fixed;
-    top: 19%;
-    left: 93%;
+    top: 16%;
+    left: 96%;
     background-position: 0 0;
     background-repeat:no-repeat;
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     margin: 0;
     padding: 0;
     
@@ -57,12 +57,12 @@ div.bgicompass {
 
 div.bgirelocate {
     position: fixed;
-    top: 20%;
-    left: 88%;
+    top: 16%;
+    left: 92.5%;
     background-position: 0 0;
     background-repeat:no-repeat;
-    width: 220px;
-    height: 220px;
+    width: 150px;
+    height: 150px;
     margin: 0;
     padding: 0;
 }
